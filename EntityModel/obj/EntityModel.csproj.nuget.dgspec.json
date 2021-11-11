@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ACCusotmerService\\EntityModel\\EntityModel.csproj": {}
+    "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj": {}
   },
   "projects": {
-    "D:\\ACCusotmerService\\EntityModel\\EntityModel.csproj": {
+    "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ACCusotmerService\\EntityModel\\EntityModel.csproj",
+        "projectUniqueName": "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj",
         "projectName": "EntityModel",
-        "projectPath": "D:\\ACCusotmerService\\EntityModel\\EntityModel.csproj",
+        "projectPath": "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj",
         "packagesPath": "C:\\Users\\Afshin\\.nuget\\packages\\",
-        "outputPath": "D:\\ACCusotmerService\\EntityModel\\obj\\",
+        "outputPath": "D:\\ACCustomerService\\EntityModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Afshin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -897,11 +897,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ACCusotmerService\\BAL\\BAL.csproj",
+      "projectUniqueName": "D:\\ACCustomerService\\BAL\\BAL.csproj",
       "projectName": "BAL",
-      "projectPath": "D:\\ACCusotmerService\\BAL\\BAL.csproj",
+      "projectPath": "D:\\ACCustomerService\\BAL\\BAL.csproj",
       "packagesPath": "C:\\Users\\Afshin\\.nuget\\packages\\",
-      "outputPath": "D:\\ACCusotmerService\\BAL\\obj\\",
+      "outputPath": "D:\\ACCustomerService\\BAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Afshin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -919,11 +919,11 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "D:\\ACCusotmerService\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "D:\\ACCusotmerService\\DataAccessLayer\\DataAccessLayer.csproj"
+            "D:\\ACCustomerService\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "D:\\ACCustomerService\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "D:\\ACCusotmerService\\EntityModel\\EntityModel.csproj": {
-              "projectPath": "D:\\ACCusotmerService\\EntityModel\\EntityModel.csproj"
+            "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj": {
+              "projectPath": "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zvRSW39F0yoZcRoWdgIBNVrEU4n7WQPp4SkCNTd1AJSbyEEqkaSS2PU3tw/QFM0dtVKGneUxetjeR+ky9y7Few==",
+  "dgSpecHash": "U4EVl/pzuH2p2yzx8InGYOMHqaHxRkxknWkLa/F9jb0MYsto/Nfs5ybAaeE7Wf0GSUCysiX7ntdkkuERBugPnw==",
   "success": true,
-  "projectFilePath": "D:\\ACCusotmerService\\EntityModel\\EntityModel.csproj",
+  "projectFilePath": "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Afshin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Afshin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

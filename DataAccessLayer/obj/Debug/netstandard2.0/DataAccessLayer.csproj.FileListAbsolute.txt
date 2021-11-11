@@ -11,3 +11,16 @@ D:\ACCusotmerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.cs
 D:\ACCusotmerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CopyComplete
 D:\ACCusotmerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.dll
 D:\ACCusotmerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.pdb
+D:\ACCustomerService\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.deps.json
+D:\ACCustomerService\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.dll
+D:\ACCustomerService\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.pdb
+D:\ACCustomerService\DataAccessLayer\bin\Debug\netstandard2.0\EntityModel.dll
+D:\ACCustomerService\DataAccessLayer\bin\Debug\netstandard2.0\EntityModel.pdb
+D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfo.cs
+D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CopyComplete
+D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.dll
+D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.pdb

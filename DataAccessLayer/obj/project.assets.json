@@ -877,11 +877,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ACCusotmerService\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "D:\\ACCustomerService\\DataAccessLayer\\DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "D:\\ACCusotmerService\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectPath": "D:\\ACCustomerService\\DataAccessLayer\\DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\Afshin\\.nuget\\packages\\",
-      "outputPath": "D:\\ACCusotmerService\\DataAccessLayer\\obj\\",
+      "outputPath": "D:\\ACCustomerService\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Afshin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -899,8 +899,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "D:\\ACCusotmerService\\EntityModel\\EntityModel.csproj": {
-              "projectPath": "D:\\ACCusotmerService\\EntityModel\\EntityModel.csproj"
+            "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj": {
+              "projectPath": "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj"
             }
           }
         }

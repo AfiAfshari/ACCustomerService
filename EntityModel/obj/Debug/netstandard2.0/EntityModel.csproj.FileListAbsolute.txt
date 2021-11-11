@@ -7,3 +7,13 @@ D:\ACCusotmerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.AssemblyIn
 D:\ACCusotmerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.csproj.CoreCompileInputs.cache
 D:\ACCusotmerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.dll
 D:\ACCusotmerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.pdb
+D:\ACCustomerService\EntityModel\bin\Debug\netstandard2.0\EntityModel.deps.json
+D:\ACCustomerService\EntityModel\bin\Debug\netstandard2.0\EntityModel.dll
+D:\ACCustomerService\EntityModel\bin\Debug\netstandard2.0\EntityModel.pdb
+D:\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.csproj.AssemblyReference.cache
+D:\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.AssemblyInfoInputs.cache
+D:\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.AssemblyInfo.cs
+D:\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.csproj.CoreCompileInputs.cache
+D:\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.dll
+D:\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.pdb

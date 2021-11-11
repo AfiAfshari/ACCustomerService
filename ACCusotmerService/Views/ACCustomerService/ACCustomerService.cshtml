@@ -1,0 +1,85 @@
+﻿@using ACCusotmerService.ViewModel;
+@using Kendo.Mvc.UI;
+@using Kendo.Mvc.Extensions;
+@model ACCustomerServiceViewModel
+
+@{
+    ViewBag.Title = "AC Customer Service";
+}
+<div>
+    <div id="CustomerServiceGrid"></div>
+    @*@(Html.Kendo().Grid<ACCustomerServiceViewModel>()
+        .Name("CustomerServiceGrid")
+        .DataSource(dataSource => dataSource
+            .Ajax()
+            .Model(model => model.Id(p => p.CustomerID))
+            .Read(read => read.Action("GetACCustomerService", "ACCustomerService"))
+            .PageSize(20)
+            .ServerOperation(false)
+         )
+        .Columns(columns =>
+        {
+            columns.Bound(p => p.CustomerID).Hidden();
+            columns.Bound(p => p.FirstName).Title("First Name").Width(50);
+            columns.Bound(p => p.LastName).Title("Last Name").Width(50);
+            columns.Bound(p => p.Address).Title("Address").Width(150);
+            columns.Bound(p => p.PhoneNumber).Title("Phone Number").Width(50);
+            columns.Bound(p => p.DateCalled).Title("Date Called").Width(100);
+            columns.Bound(p => p.DateCreated).Hidden();
+        })
+        .Pageable(page => page.Enabled(true))
+    )*@
+</div>
+
+<script>
+    $(function () {
+        $.ajax({
+            type: "GET",
+            url: "/ACCustomerService/GetACCustomerService",
+            dataType: "json",
+            success: function (results) {
+                $("#CustomerServiceGrid").empty()
+                if (results.length > 0) {
+                    $("#CustomerServiceGrid").kendoGrid({
+                        dataSource: {
+                            data: results,
+                            schema: {
+                                model: {
+                                    fields: {
+                                        CustomerID: { type: "number" },
+                                        FirstName: { type: "string" },
+                                        LastName: { type: "string" },
+                                        Address: { type: "string" },
+                                        PhoneNumber: { type: "string" },
+                                        DateCalled: { type: "string" },
+                                        DateCreated: { type: "string" }
+                                    }
+                                }
+                            },
+                            pageSize: 10
+                        },
+                        scrollable: true,
+                        sortable: true,
+                        filterable: true,
+                        pageable: {
+                            input: true,
+                            numeric: false
+                        },
+                        columns: [
+                            "ProductName",
+                            { field: "CustomerID", hidden: true },
+                            { field: "FirstName", title: "First Name", width: "130px" },
+                            { field: "LastName", title: "Last Name", width: "130px" },
+                            { field: "Address", title: "Address", width: "130px" },
+                            { field: "PhoneNumber", title: "Phone Number", width: "130px" },
+                            { field: "DateCalled", title: "Date Called", width: "130px" },
+                            { field: "DateCreated", hidden: true }
+                        ]
+                    });
+                }
+            }
+        });
+    });
+</script>
+
+

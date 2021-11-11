@@ -1,0 +1,10 @@
+D:\ACCusotmerService\BAL\bin\Debug\netstandard2.1\BAL.deps.json
+D:\ACCusotmerService\BAL\bin\Debug\netstandard2.1\BAL.dll
+D:\ACCusotmerService\BAL\bin\Debug\netstandard2.1\BAL.pdb
+D:\ACCusotmerService\BAL\obj\Debug\netstandard2.1\BAL.csproj.AssemblyReference.cache
+D:\ACCusotmerService\BAL\obj\Debug\netstandard2.1\BAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ACCusotmerService\BAL\obj\Debug\netstandard2.1\BAL.AssemblyInfoInputs.cache
+D:\ACCusotmerService\BAL\obj\Debug\netstandard2.1\BAL.AssemblyInfo.cs
+D:\ACCusotmerService\BAL\obj\Debug\netstandard2.1\BAL.csproj.CoreCompileInputs.cache
+D:\ACCusotmerService\BAL\obj\Debug\netstandard2.1\BAL.dll
+D:\ACCusotmerService\BAL\obj\Debug\netstandard2.1\BAL.pdb

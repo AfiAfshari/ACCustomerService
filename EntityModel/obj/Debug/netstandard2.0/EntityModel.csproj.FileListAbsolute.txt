@@ -1,0 +1,9 @@
+D:\ACCusotmerService\EntityModel\bin\Debug\netstandard2.0\EntityModel.deps.json
+D:\ACCusotmerService\EntityModel\bin\Debug\netstandard2.0\EntityModel.dll
+D:\ACCusotmerService\EntityModel\bin\Debug\netstandard2.0\EntityModel.pdb
+D:\ACCusotmerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\ACCusotmerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.AssemblyInfoInputs.cache
+D:\ACCusotmerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.AssemblyInfo.cs
+D:\ACCusotmerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.csproj.CoreCompileInputs.cache
+D:\ACCusotmerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.dll
+D:\ACCusotmerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.pdb

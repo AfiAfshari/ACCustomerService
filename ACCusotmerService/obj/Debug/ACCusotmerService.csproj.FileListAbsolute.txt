@@ -421,6 +421,5 @@ D:\ACCustomerService\ACCusotmerService\bin\Microsoft.CodeDom.Providers.DotNetCom
 D:\ACCustomerService\ACCusotmerService\bin\DataAccessLayer.pdb
 D:\ACCustomerService\ACCusotmerService\obj\Debug\ACCusotmerService.csproj.AssemblyReference.cache
 D:\ACCustomerService\ACCusotmerService\obj\Debug\ACCusotmerService.csproj.CoreCompileInputs.cache
-D:\ACCustomerService\ACCusotmerService\obj\Debug\ACCusotmerService.csproj.CopyComplete
 D:\ACCustomerService\ACCusotmerService\obj\Debug\ACCusotmerService.dll
 D:\ACCustomerService\ACCusotmerService\obj\Debug\ACCusotmerService.pdb

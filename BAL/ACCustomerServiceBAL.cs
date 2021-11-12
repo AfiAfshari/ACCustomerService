@@ -21,5 +21,19 @@ namespace BAL
                 throw exc;
             }
         }
+
+        public void InsertACCustomerService(ACCustomerServiceEntity entity)
+        {
+            try
+            {
+                _objACCSDAL = new ACCustomerServiceDAL();
+                _objACCSDAL.InsertACCustomerService(entity);
+            }
+            catch (Exception exc)
+            {
+                throw exc;
+            }
+        }
+
     }
 }

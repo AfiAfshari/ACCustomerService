@@ -21,6 +21,5 @@ D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.Ge
 D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfoInputs.cache
 D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfo.cs
 D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CoreCompileInputs.cache
-D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CopyComplete
 D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.dll
 D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.pdb

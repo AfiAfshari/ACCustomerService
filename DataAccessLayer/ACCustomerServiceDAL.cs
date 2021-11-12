@@ -64,5 +64,67 @@ namespace DataAccessLayer
 
             return lstEntity;
         }
+        public void InsertACCustomerService(ACCustomerServiceEntity entity)
+        {
+
+
+            try
+            {
+                using (sqlcon = new SqlConnection(connectionString))
+                {
+                    DataSet ds = new DataSet();
+                    SqlCommand cmd = new SqlCommand("dbo.InsertACCustomer"  , sqlcon);
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    param = new SqlParameter("FirstName", SqlDbType.VarChar);
+                    param.Direction = ParameterDirection.Input;
+                    param.Value = entity.FirstName;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("LastName", SqlDbType.VarChar);
+                    param.Direction = ParameterDirection.Input;
+                    param.Value = entity.LastName;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("Address", SqlDbType.Text);
+                    param.Direction = ParameterDirection.Input;
+                    param.Value = entity.Address;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("PhoneNumber", SqlDbType.VarChar);
+                    param.Direction = ParameterDirection.Input;
+                    param.Value = entity.PhoneNumber;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("DateCalled", SqlDbType.Date);
+                    param.Direction = ParameterDirection.Input;
+                    param.Value = entity.DateCalled;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("DateCreated", SqlDbType.Date);
+                    param.Direction = ParameterDirection.Input;
+                    param.Value = entity.DateCreated;
+                    cmd.Parameters.Add(param);
+
+                    sqlcon.Open();
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception exc)
+            {
+                throw new Exception(exc.Message);
+            }
+            finally
+            {
+                if (dr != null)
+                {
+                    dr.Close();
+                    sqlcon.Close();
+                }
+            }
+
+           
+        }
+
     }
 }

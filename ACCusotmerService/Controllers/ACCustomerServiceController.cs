@@ -51,5 +51,34 @@ namespace ACCusotmerService.Controllers
                 throw exc;
             }
         }
+
+        [HttpPost]
+        public ActionResult ACCustomerService(ACCustomerServiceViewModel viewModel)
+        {
+            try
+            {
+                ACCustomerServiceEntity entity = new ACCustomerServiceEntity();
+
+                var _objBAL = new BAL.ACCustomerServiceBAL();
+
+                entity.FirstName = viewModel.FirstName;
+                entity.LastName = viewModel.LastName;
+                entity.Address = viewModel.Address;
+                entity.PhoneNumber = viewModel.PhoneNumber;
+                entity.DateCalled = viewModel.DateCalled;
+                entity.DateCreated = DateTime.Now;
+
+                _objBAL.InsertACCustomerService(entity);
+
+                return RedirectToAction("ACCustomerService");
+
+
+            }
+            catch (Exception exc)
+            {
+                throw exc;
+            }
+        }
+
     }
 }

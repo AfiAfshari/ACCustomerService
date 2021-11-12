@@ -25,6 +25,6 @@ D:\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.GeneratedMSBuildEditorConf
 D:\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.AssemblyInfoInputs.cache
 D:\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.AssemblyInfo.cs
 D:\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.csproj.CoreCompileInputs.cache
-D:\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.csproj.CopyComplete
 D:\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.dll
 D:\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.pdb
+D:\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.csproj.CopyComplete

@@ -23,3 +23,15 @@ D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.As
 D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CoreCompileInputs.cache
 D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.dll
 D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.pdb
+C:\projects\ACCustomerService\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.deps.json
+C:\projects\ACCustomerService\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.dll
+C:\projects\ACCustomerService\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.pdb
+C:\projects\ACCustomerService\DataAccessLayer\bin\Debug\netstandard2.0\EntityModel.dll
+C:\projects\ACCustomerService\DataAccessLayer\bin\Debug\netstandard2.0\EntityModel.pdb
+C:\projects\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\projects\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\projects\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfo.cs
+C:\projects\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\projects\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CopyComplete
+C:\projects\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.dll
+C:\projects\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.pdb

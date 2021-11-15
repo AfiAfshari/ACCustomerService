@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace ACCusotmerService
+namespace AcCustomerService
 {
     public class FilterConfig
     {

@@ -28,3 +28,17 @@ D:\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.csproj.CoreCompileInputs.c
 D:\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.dll
 D:\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.pdb
 D:\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.csproj.CopyComplete
+C:\projects\ACCustomerService\BAL\bin\Debug\netstandard2.0\BAL.deps.json
+C:\projects\ACCustomerService\BAL\bin\Debug\netstandard2.0\BAL.dll
+C:\projects\ACCustomerService\BAL\bin\Debug\netstandard2.0\BAL.pdb
+C:\projects\ACCustomerService\BAL\bin\Debug\netstandard2.0\DataAccessLayer.dll
+C:\projects\ACCustomerService\BAL\bin\Debug\netstandard2.0\EntityModel.dll
+C:\projects\ACCustomerService\BAL\bin\Debug\netstandard2.0\DataAccessLayer.pdb
+C:\projects\ACCustomerService\BAL\bin\Debug\netstandard2.0\EntityModel.pdb
+C:\projects\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.csproj.AssemblyReference.cache
+C:\projects\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.AssemblyInfoInputs.cache
+C:\projects\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.AssemblyInfo.cs
+C:\projects\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.csproj.CoreCompileInputs.cache
+C:\projects\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.csproj.CopyComplete
+C:\projects\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.dll
+C:\projects\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.pdb

@@ -1,52 +1,44 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Web.Mvc;
-using ACCusotmerService.ViewModel;
+using AcCustomerService.ViewModel;
 using BAL;
 using EntityModel;
 
 namespace ACCusotmerService.Controllers
 {
-    public class ACCustomerServiceController : Controller
+    public class AcCustomerServiceController : Controller
     {
-        public ActionResult ACCustomerService()
+        public ActionResult AcCustomerService()
         {
             return View();
         }
 
         [HttpGet]
-        public ActionResult GetACCustomerService()
+        public ActionResult GetAcCustomerService()
         {
             try
             {
-                var _objBAL = new BAL.ACCustomerServiceBAL();
-                List<ACCustomerServiceEntity> lstEntity = new List<ACCustomerServiceEntity>();
+                var _objBAL = new ACCustomerServiceBAL();
+                var lstEntity = new List<ACCustomerServiceEntity>();
                 lstEntity = _objBAL.GetACCustomerService();
 
-                ACCustomerServiceViewModel viewModel = null;
-                List<ACCustomerServiceViewModel> lstViewModel = new List<ACCustomerServiceViewModel>();
-
-                if (lstEntity != null && lstEntity.Count > 0)
+                if (lstEntity == null || lstEntity.Count <= 0) return Json(Enumerable.Empty<ACCustomerServiceViewModel>(), JsonRequestBehavior.AllowGet);
+                var acCustomerServiceViewModels = lstEntity.Select(item => new ACCustomerServiceViewModel
                 {
-                    foreach (var item in lstEntity)
-                    {
-                        viewModel = new ACCustomerServiceViewModel();
+                    CustomerID = item.CustomerID,
+                    FirstName = item.FirstName,
+                    LastName = item.LastName,
+                    Address = item.Address,
+                    PhoneNumber = item.PhoneNumber,
+                    DateCalled = item.DateCalled,
+                    DateCreated = item.DateCreated
+                });
 
-                        viewModel.CustomerID = item.CustomerID;
-                        viewModel.FirstName = item.FirstName;
-                        viewModel.LastName = item.LastName;
-                        viewModel.Address = item.Address;
-                        viewModel.PhoneNumber = item.PhoneNumber;
-                        viewModel.DateCalled = item.DateCalled;
-                        viewModel.DateCreated = item.DateCreated;
-
-                        lstViewModel.Add(viewModel);
-                    }
-                }
-
-                return Json(lstViewModel, JsonRequestBehavior.AllowGet);
+                return Json(acCustomerServiceViewModels, JsonRequestBehavior.AllowGet);
             }
-            catch(Exception exc)
+            catch (Exception exc)
             {
                 throw exc;
             }
@@ -57,22 +49,20 @@ namespace ACCusotmerService.Controllers
         {
             try
             {
-                ACCustomerServiceEntity entity = new ACCustomerServiceEntity();
-
-                var _objBAL = new BAL.ACCustomerServiceBAL();
-
-                entity.FirstName = viewModel.FirstName;
-                entity.LastName = viewModel.LastName;
-                entity.Address = viewModel.Address;
-                entity.PhoneNumber = viewModel.PhoneNumber;
-                entity.DateCalled = viewModel.DateCalled;
-                entity.DateCreated = DateTime.Now;
+                var _objBAL = new ACCustomerServiceBAL();
+                var entity = new ACCustomerServiceEntity
+                {
+                    FirstName = viewModel.FirstName,
+                    LastName = viewModel.LastName,
+                    Address = viewModel.Address,
+                    PhoneNumber = viewModel.PhoneNumber,
+                    DateCalled = viewModel.DateCalled,
+                    DateCreated = DateTime.Now
+                };
 
                 _objBAL.InsertACCustomerService(entity);
 
-                return RedirectToAction("ACCustomerService");
-
-
+                return RedirectToAction("AcCustomerService");
             }
             catch (Exception exc)
             {

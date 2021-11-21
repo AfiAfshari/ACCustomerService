@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace ACCusotmerService
+namespace AcCustomerService
 {
     public class BundleConfig
     {

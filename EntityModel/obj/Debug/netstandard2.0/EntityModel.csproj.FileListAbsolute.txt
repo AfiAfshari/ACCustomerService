@@ -17,3 +17,12 @@ D:\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.AssemblyIn
 D:\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.csproj.CoreCompileInputs.cache
 D:\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.dll
 D:\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.pdb
+C:\projects\ACCustomerService\EntityModel\bin\Debug\netstandard2.0\EntityModel.deps.json
+C:\projects\ACCustomerService\EntityModel\bin\Debug\netstandard2.0\EntityModel.dll
+C:\projects\ACCustomerService\EntityModel\bin\Debug\netstandard2.0\EntityModel.pdb
+C:\projects\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.csproj.AssemblyReference.cache
+C:\projects\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.AssemblyInfoInputs.cache
+C:\projects\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.AssemblyInfo.cs
+C:\projects\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.csproj.CoreCompileInputs.cache
+C:\projects\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.dll
+C:\projects\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.pdb

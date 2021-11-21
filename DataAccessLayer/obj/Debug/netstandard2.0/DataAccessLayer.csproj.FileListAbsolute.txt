@@ -35,3 +35,4 @@ C:\projects\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAcces
 C:\projects\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CopyComplete
 C:\projects\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.dll
 C:\projects\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.pdb
+D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CopyComplete

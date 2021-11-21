@@ -872,19 +872,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kash\\.nuget\\packages\\": {}
+    "C:\\Users\\Afshin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\ACCustomerService\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "D:\\ACCustomerService\\DataAccessLayer\\DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "C:\\projects\\ACCustomerService\\DataAccessLayer\\DataAccessLayer.csproj",
-      "packagesPath": "C:\\Users\\kash\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\ACCustomerService\\DataAccessLayer\\obj\\",
+      "projectPath": "D:\\ACCustomerService\\DataAccessLayer\\DataAccessLayer.csproj",
+      "packagesPath": "C:\\Users\\Afshin\\.nuget\\packages\\",
+      "outputPath": "D:\\ACCustomerService\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Afshin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -892,14 +892,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.telerik.com/nuget": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\projects\\ACCustomerService\\EntityModel\\EntityModel.csproj": {
-              "projectPath": "C:\\projects\\ACCustomerService\\EntityModel\\EntityModel.csproj"
+            "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj": {
+              "projectPath": "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj"
             }
           }
         }
@@ -935,7 +936,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

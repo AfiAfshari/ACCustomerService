@@ -95,7 +95,7 @@
 
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
-                <label id="lblPhoneNumber" class="field-validation-error" style="display:none">This Field is requierd </label>
+                <label id="lblDateCalled" class="field-validation-error" style="display:none">This Field is requierd </label>
             </div>
         </div>
 
@@ -139,18 +139,35 @@
 
         if (firstName == "") {
             $('#lblFirstName').show(),
-                (lastName == "")
-            $('#lblLastName').show(),
-                (address == "")
-            $('#lblAdress').show(),
-                (phoneNumber == "")
-            $('#lblPhoneNumber').show(),
-                (dateCalled == "")
-            $('#lblDateCalled').show();
             count++;
         }
         else
             $('#lblFirstName').hide();
+        if (lastName == "") {
+            $('#lblFLastName').show(),
+                count++;
+        }
+        else
+            $('#lblLastName').hide();
+        if (address == "") {
+            $('#lblAddress').show(),
+                count++;
+        }
+        else
+            $('#lblAddress').hide();
+        if (phoneNumber == "") {
+            $('#lblPhoneNumber').show(),
+                count++;
+        }
+        else
+            $('#lblPhoneNumber').hide();
+        if (dateCalled == "") {
+            $('#lblDateCalled').show(),
+                count++;
+        }
+        else
+            $('#lblDateCalled').hide();
+        
 
         return count > 0 ? false : true;
 

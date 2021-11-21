@@ -892,7 +892,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kash\\.nuget\\packages\\": {}
+    "C:\\Users\\Kash\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -900,11 +900,11 @@
       "projectUniqueName": "C:\\projects\\ACCustomerService\\BAL\\BAL.csproj",
       "projectName": "BAL",
       "projectPath": "C:\\projects\\ACCustomerService\\BAL\\BAL.csproj",
-      "packagesPath": "C:\\Users\\kash\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Kash\\.nuget\\packages\\",
       "outputPath": "C:\\projects\\ACCustomerService\\BAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -958,7 +958,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

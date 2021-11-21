@@ -42,3 +42,4 @@ C:\projects\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.csproj.CoreCompil
 C:\projects\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.csproj.CopyComplete
 C:\projects\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.dll
 C:\projects\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.pdb
+C:\projects\ACCustomerService\BAL\obj\Debug\netstandard2.0\BAL.GeneratedMSBuildEditorConfig.editorconfig

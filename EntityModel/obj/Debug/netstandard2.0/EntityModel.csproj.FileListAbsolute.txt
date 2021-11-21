@@ -26,3 +26,4 @@ C:\projects\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.A
 C:\projects\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.csproj.CoreCompileInputs.cache
 C:\projects\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.dll
 C:\projects\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.pdb
+C:\projects\ACCustomerService\EntityModel\obj\Debug\netstandard2.0\EntityModel.GeneratedMSBuildEditorConfig.editorconfig

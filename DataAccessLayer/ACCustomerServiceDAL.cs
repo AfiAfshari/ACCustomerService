@@ -121,10 +121,7 @@ namespace DataAccessLayer
                     dr.Close();
                     sqlcon.Close();
                 }
-            }
-
-           
+            }           
         }
-
     }
 }

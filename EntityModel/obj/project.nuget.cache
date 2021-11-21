@@ -1,11 +1,20 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "U4EVl/pzuH2p2yzx8InGYOMHqaHxRkxknWkLa/F9jb0MYsto/Nfs5ybAaeE7Wf0GSUCysiX7ntdkkuERBugPnw==",
+=======
+  "dgSpecHash": "OfWAQwCghSUgRI9DtmS/d4iFgu1hGKS2tqHQBsD1yFSbAPlJPkwsijQvjzMCVmnZ22MdqNUSfnR+ViSlwdjaEw==",
+>>>>>>> 8aa6cff1d41e328c4d84e7b617049ad9795f218b
   "success": true,
   "projectFilePath": "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj",
   "expectedPackageFiles": [
+<<<<<<< HEAD
     "C:\\Users\\Afshin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Afshin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+=======
+    "C:\\Users\\Kash\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Kash\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+>>>>>>> 8aa6cff1d41e328c4d84e7b617049ad9795f218b
   ],
   "logs": []
 }

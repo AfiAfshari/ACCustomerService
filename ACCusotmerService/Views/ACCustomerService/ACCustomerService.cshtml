@@ -7,11 +7,162 @@
     ViewBag.Title = "AC Customer Service";
 }
 
-<div>
-    <div id="recordSection">
-        <div id="CustomerServiceGrid"></div>
+<style>
+    input {
+        width: 100% !important;
+    }
 
-        <button type="button" id="nextButton" class="btn btn-primary">Add Cusotmer</button>
+    .field-validation-error {
+        color: #7d2c38 !important;
+        font-weight: 600;
+        background-color: #fcdde2;
+        border-color: #fbcfd6;
+        position: relative;
+        padding: .45rem .9rem;
+        margin-bottom: 1rem;
+        margin-top: .25rem;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        width: -webkit-fill-available;
+    }
+
+    .mandatory-star::after {
+        content: " *";
+        color: red;
+    }
+
+    .col-xs-1,
+    .col-sm-1,
+    .col-md-1,
+    .col-lg-1,
+    .col-xs-2,
+    .col-sm-2,
+    .col-md-2,
+    .col-lg-2,
+    .col-xs-3,
+    .col-sm-3,
+    .col-md-3,
+    .col-lg-3,
+    .col-xs-4,
+    .col-sm-4,
+    .col-md-4,
+    .col-lg-4,
+    .col-xs-5,
+    .col-sm-5,
+    .col-md-5,
+    .col-lg-5,
+    .col-xs-6,
+    .col-sm-6,
+    .col-md-6,
+    .col-lg-6,
+    .col-xs-7,
+    .col-sm-7,
+    .col-md-7,
+    .col-lg-7,
+    .col-xs-8,
+    .col-sm-8,
+    .col-md-8,
+    .col-lg-8,
+    .col-xs-9,
+    .col-sm-9,
+    .col-md-9,
+    .col-lg-9,
+    .col-xs-10,
+    .col-sm-10,
+    .col-md-10,
+    .col-lg-10,
+    .col-xs-11,
+    .col-sm-11,
+    .col-md-11,
+    .col-lg-11,
+    .col-xs-12,
+    .col-sm-12,
+    .col-md-12,
+    .col-lg-12 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .col-xs-1,
+    .col-xs-2,
+    .col-xs-3,
+    .col-xs-4,
+    .col-xs-5,
+    .col-xs-6,
+    .col-xs-7,
+    .col-xs-8,
+    .col-xs-9,
+    .col-xs-10,
+    .col-xs-11,
+    .col-xs-12 {
+        float: left;
+    }
+
+    .col-xs-12 {
+        width: 100%;
+    }
+
+    .col-xs-11 {
+        width: 91.66666667%;
+    }
+
+    .col-xs-10 {
+        width: 83.33333333%;
+    }
+
+    .col-xs-9 {
+        width: 75%;
+    }
+
+    .col-xs-8 {
+        width: 66.66666667%;
+    }
+
+    .col-xs-7 {
+        width: 58.33333333%;
+    }
+
+    .col-xs-6 {
+        width: 50%;
+    }
+
+    .col-xs-5 {
+        width: 41.66666667%;
+    }
+
+    .col-xs-4 {
+        width: 33.33333333%;
+    }
+
+    .col-xs-3 {
+        width: 25%;
+    }
+
+    .col-xs-2 {
+        width: 16.66666667%;
+    }
+
+    .col-xs-1 {
+        width: 8.33333333%;
+    }
+</style>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+    <div id="recordSection">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+                <div class="form-group">
+                    <div id="CustomerServiceGrid"></div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5 text-center">
+                <div class="form-group">
+                    <button type="button" id="nextButton" class="btn btn-primary">Add Cusotmer</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     @*@(Html.Kendo().Grid<ACCustomerServiceViewModel>()
@@ -35,98 +186,109 @@
             })
             .Pageable(page => page.Enabled(true))
         )*@
-<div id="formSection" style="display:none">
+    <div id="formSection" style="display:none">
 
-    @using (Html.BeginForm("ACCustomerService", "ACCustomerService", FormMethod.Post))
-    {
-        <div class="form-group">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
-                @Html.Label("First Name", new { @class = "control-label mandatory-star" })
+        @using (Html.BeginForm("ACCustomerService", "ACCustomerService", FormMethod.Post))
+        {
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5 form-group">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+                    @Html.Label("First Name", new { @class = "control-label mandatory-star" })
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+                    @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+                    <label id="lblFirstName" class="field-validation-error" style="display:none">This Field is requierd </label>
+                </div>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
-                @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+            <div class="form-group">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+                    @Html.Label("Last Name", new { @class = "control-label mandatory-star" })
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+                    @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+                    <label id="lblLastName" class="field-validation-error" style="display:none">This Field is requierd </label>
+                </div>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
-                <label id="lblFirstName" class="field-validation-error" style="display:none">This Field is requierd </label>
+            <div class="form-group">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+                    @Html.Label("Address", new { @class = "control-label mandatory-star" })
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+                    @Html.TextBoxFor(m => m.Address, new { @class = "form-control" })
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+                    <label id="lblAddress" class="field-validation-error" style="display:none">This Field is requierd </label>
+                </div>
             </div>
-        </div>
-        <div class="form-group">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
-                @Html.Label("Last Name", new { @class = "control-label mandatory-star" })
+            <div class="form-group">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+                    @Html.Label("Phone Number", new { @class = "control-label mandatory-star" })
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+                    @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control" })
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+                    <label id="lblPhoneNumber" class="field-validation-error" style="display:none">This Field is requierd </label>
+                </div>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
-                @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
-                <label id="lblLastName" class="field-validation-error" style="display:none">This Field is requierd </label>
-            </div>
-        </div>
-        <div class="form-group">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
-                @Html.Label("Address", new { @class = "control-label mandatory-star" })
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
-                @Html.TextBoxFor(m => m.Address, new { @class = "form-control" })
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
-                <label id="lblAddress" class="field-validation-error" style="display:none">This Field is requierd </label>
-            </div>
-        </div>
-        <div class="form-group">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
-                @Html.Label("Phone Number", new { @class = "control-label mandatory-star" })
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
-                @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control" })
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
-                <label id="lblPhoneNumber" class="field-validation-error" style="display:none">This Field is requierd </label>
-            </div>
-        </div>
-        <div class="form-group">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
-                @Html.Label("Date Called", new { @class = "control-label" })
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
-                @(Html.Kendo().DatePickerFor(m => m.DateCalled)
+            <div class="form-group">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+                    @Html.Label("Date Called", new { @class = "control-label" })
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+                    @(Html.Kendo().DatePickerFor(m => m.DateCalled)
           .Name("DateCalled")
           .HtmlAttributes(new { @style="auto" })
         )<br />
 
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+                    <label id="lblDateCalled" class="field-validation-error" style="display:none">This Field is requierd </label>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
+                    <label id="lblDateCalledRange" class="field-validation-error" style="display:none">Date can not be in the future </label>
+                </div>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
-                <label id="lblDateCalled" class="field-validation-error" style="display:none">This Field is requierd </label>
+
+
+            @*<label for="fname">First name:</label><br>*@
+
+            @*<input class="form-control" type="text" id="fname" name="fname"><br>*@
+            @*<label for="lname">Last Name:</label><br>*@
+
+            @*<input class="form-control" type="text" id="lname" name="lname" /><br>*@
+            @*<label for="address">Address:</label><br>*@
+
+            @*<input class="form-control" type="text" id="address" name="address"><br>*@
+            @*<label for="pnumber">Phone Number:</label><br>*@
+
+            @*<input class="form-control" type="text" id="pnumber" name="pnumber"><br>*@
+            @*<label for="dcalled">Date Called:</label><br>*@
+
+
+            @*<input class="form-control" type="text" id="dcalled" name="pnumber"><br>*@
+            <div class="form-group">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5 text-center">
+                    <button type="button" id="backButton" class="btn btn-inverse">Back</button>
+                    <button type="submit" class="btn btn-primary" onclick="return validateForm()">Save Cusotmer</button>
+                </div>
             </div>
-        </div>
+
+            @*<input type="submit" value="save">*@
+        }
+    </div>
 
 
-        @*<label for="fname">First name:</label><br>*@
-
-        @*<input class="form-control" type="text" id="fname" name="fname"><br>*@
-        @*<label for="lname">Last Name:</label><br>*@
-
-        @*<input class="form-control" type="text" id="lname" name="lname" /><br>*@
-        @*<label for="address">Address:</label><br>*@
-
-        @*<input class="form-control" type="text" id="address" name="address"><br>*@
-        @*<label for="pnumber">Phone Number:</label><br>*@
-
-        @*<input class="form-control" type="text" id="pnumber" name="pnumber"><br>*@
-        @*<label for="dcalled">Date Called:</label><br>*@
-        
-
-        @*<input class="form-control" type="text" id="dcalled" name="pnumber"><br>*@
-        <button type="button" id="backButton" class="btn btn-inverse">Back</button>
-
-        <button type="submit" class="btn btn-primary" onclick="return validateForm()">Save Cusotmer</button>
-        @*<input type="submit" value="save">*@
-    }
 </div>
 
 
-</div>
 
 <script>
+
+
     function validateForm() {
         debugger;
         var firstName = document.getElementById('FirstName').value,
@@ -138,44 +300,66 @@
         var count = 0;
 
         if (firstName == "") {
-            $('#lblFirstName').show(),
+            $('#lblFirstName').show();
             count++;
         }
         else
             $('#lblFirstName').hide();
+
         if (lastName == "") {
-            $('#lblFLastName').show(),
-                count++;
+            $('#lblLastName').show();
+            count++;
         }
         else
             $('#lblLastName').hide();
+
         if (address == "") {
-            $('#lblAddress').show(),
-                count++;
+            $('#lblAddress').show();
+            count++;
         }
         else
             $('#lblAddress').hide();
+
         if (phoneNumber == "") {
-            $('#lblPhoneNumber').show(),
-                count++;
+            $('#lblPhoneNumber').show();
+            count++;
         }
         else
             $('#lblPhoneNumber').hide();
+
         if (dateCalled == "") {
-            $('#lblDateCalled').show(),
-                count++;
+            $('#lblDateCalled').show();
+            $('#lblDateCalledRange').hide();
+            count++;
         }
-        else
+        else {
             $('#lblDateCalled').hide();
-        
+
+            var varDate = new Date(dateCalled); //dd-mm-YYYY
+            var today = new Date();
+            today.setHours(0, 0, 0, 0);
+
+            if (varDate > today) {
+                $('#lblDateCalledRange').show();
+                count++;
+            }
+            else
+                $('#lblDateCalledRange').hide();
+        }
 
         return count > 0 ? false : true;
-
 
     }
 
 
     $(function () {
+
+ 
+
+        $('#PhoneNumber').mask("99 99 99 99 99");
+
+
+
 
         $.ajax({
             type: "GET",

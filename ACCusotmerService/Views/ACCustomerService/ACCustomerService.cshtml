@@ -195,7 +195,7 @@
                     @Html.Label("First Name", new { @class = "control-label mandatory-star" })
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
-                    @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+                    @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control txt-pattern" })
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-lr-5">
                     <label id="lblFirstName" class="field-validation-error" style="display:none">This Field is requierd </label>
@@ -288,6 +288,11 @@
 
 <script>
 
+    $(document).ready(function () {
+        $(document).on("keyup", ".txt-pattern", function () {
+            $("#txt-pattern").val($("#txt-pattern").val().replace(/[^a-z0-9\s]/gi, '').replace(/[_\s]/g, '').toLowerCase());
+        });
+    });
 
     function validateForm() {
         debugger;
@@ -354,9 +359,10 @@
 
     $(function () {
 
- 
+
 
         $('#PhoneNumber').mask("99 99 99 99 99");
+
 
 
 

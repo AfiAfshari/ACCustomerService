@@ -1,3 +1,19 @@
+# Database Task
+** SQL Files
+- [x] Creating Tables
+create customer table
+create licenses table
+create customerlicense join table
+** CreateTablesAndInsert.sql
+- [] Creating Stored procedures.
+** StoredProcedures.sql
+- [] Creating Functions
+- [] Creating Table based functions
+- [] Creating SQL Types
+- [x] More emphasis on Joins 
+** StoredProcedures.sql
+
+# Before Task
 ## Install apps
 
 - ~~VS 2019~~ `Done`

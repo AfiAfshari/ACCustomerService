@@ -9,7 +9,7 @@
       \*\* CreateTablesAndInsert.sql
 - [] Creating Stored procedures.
   \*\* StoredProcedures.sql
-- [] Creating Functions
+- [x] Creating Functions
 - [x] Creating Table based functions
       \*\* CreatFunctions.sql
 - [] Creating SQL Types

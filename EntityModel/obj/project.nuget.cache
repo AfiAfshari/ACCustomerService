@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "U4EVl/pzuH2p2yzx8InGYOMHqaHxRkxknWkLa/F9jb0MYsto/Nfs5ybAaeE7Wf0GSUCysiX7ntdkkuERBugPnw==",
+  "dgSpecHash": "GK4Y27u/T3zv+YI4idjkH07fc2lztbsSmIvnkIF3//2aImmmfiZxMEh7CDXC45Ou7FaY2XX1B756EN2eTZzPaQ==",
   "success": true,
-  "projectFilePath": "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj",
+  "projectFilePath": "C:\\projects\\afi\\ACCustomerService\\EntityModel\\EntityModel.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Afshin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Afshin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\kash\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\kash\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

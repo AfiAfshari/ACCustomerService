@@ -1,36 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ACCustomerService\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "C:\\projects\\afi\\ACCustomerService\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "D:\\ACCustomerService\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\projects\\afi\\ACCustomerService\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ACCustomerService\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\projects\\afi\\ACCustomerService\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "D:\\ACCustomerService\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\Afshin\\.nuget\\packages\\",
-        "outputPath": "D:\\ACCustomerService\\DataAccessLayer\\obj\\",
+        "projectPath": "C:\\projects\\afi\\ACCustomerService\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\kash\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\afi\\ACCustomerService\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Afshin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "https://nuget.pkg.github.com/eduphoria/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj": {
-                "projectPath": "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj"
+              "C:\\projects\\afi\\ACCustomerService\\EntityModel\\EntityModel.csproj": {
+                "projectPath": "C:\\projects\\afi\\ACCustomerService\\EntityModel\\EntityModel.csproj"
               }
             }
           }
@@ -42,15 +42,9 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.3, )"
@@ -62,25 +56,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj": {
+    "C:\\projects\\afi\\ACCustomerService\\EntityModel\\EntityModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj",
+        "projectUniqueName": "C:\\projects\\afi\\ACCustomerService\\EntityModel\\EntityModel.csproj",
         "projectName": "EntityModel",
-        "projectPath": "D:\\ACCustomerService\\EntityModel\\EntityModel.csproj",
-        "packagesPath": "C:\\Users\\Afshin\\.nuget\\packages\\",
-        "outputPath": "D:\\ACCustomerService\\EntityModel\\obj\\",
+        "projectPath": "C:\\projects\\afi\\ACCustomerService\\EntityModel\\EntityModel.csproj",
+        "packagesPath": "C:\\Users\\kash\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\afi\\ACCustomerService\\EntityModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Afshin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,7 +89,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "https://nuget.pkg.github.com/eduphoria/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
@@ -120,11 +120,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

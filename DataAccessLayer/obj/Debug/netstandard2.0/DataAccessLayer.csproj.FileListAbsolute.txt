@@ -40,3 +40,16 @@ D:\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.cs
 =======
 C:\projects\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
 >>>>>>> 8aa6cff1d41e328c4d84e7b617049ad9795f218b
+C:\projects\afi\ACCustomerService\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.deps.json
+C:\projects\afi\ACCustomerService\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.dll
+C:\projects\afi\ACCustomerService\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.pdb
+C:\projects\afi\ACCustomerService\DataAccessLayer\bin\Debug\netstandard2.0\EntityModel.dll
+C:\projects\afi\ACCustomerService\DataAccessLayer\bin\Debug\netstandard2.0\EntityModel.pdb
+C:\projects\afi\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\projects\afi\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\afi\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\projects\afi\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfo.cs
+C:\projects\afi\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\projects\afi\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CopyComplete
+C:\projects\afi\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.dll
+C:\projects\afi\ACCustomerService\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.pdb
